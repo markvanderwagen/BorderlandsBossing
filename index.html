@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="icon" href="logo.png" type="image/png">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/9cbbf94265.js" crossorigin="anonymous"></script>
+	
+	<title>Borderlands Boss Generator!</title>
+</head>
+<body>
+	<h1 id="heading">Borderlands Boss Generator</h1>
+
+	<div id="number">
+		<input id="number_input" type="number" min="0" max="20" >
+	</div>
+
+	<div id="boss_button">
+		<button id="randomise" onclick="myFunction()">Randomise</button>
+	</div>
+	<div id = "repeat">
+		<button id="repeat" onclick="clear()"> <i class='fa fa-repeat'></i> </button>
+	</div>
+	<br />
+	
+	<form id="form">
+		<div id="boss">
+			<h1 id="boss"></h1>
+		</div>	
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
